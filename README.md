@@ -1,27 +1,11 @@
-# Elkowar's Phocus-Phork
-This GTK3 theme is a phork of phisch's phocus theme, adjusted to match the gruvbox colorscheme.
+## ❖ gtk3
 
-## Installation
+> my phork of [elkowar's phork](https://github.com/elkowar/gtk) of phocus.
 
-### Nix
+### — Installation
 
-```nix
-gtk = {
-  enable = true;
-  theme = let
-      phocus = pkgs.stdenv.mkDerivation {
-        name = "phocus";
-        src = builtins.fetchTarball https://github.com/elkowar/gtk/archive/master.tar.gz;
-        nativeBuildInputs = [ pkgs.sass ];
-        installFlags = [ "DESTDIR=$(out)" "PREFIX=" ];
-      };
-    in {
-    package = phocus;
-    name = "phocus";
-  };
-};
 ```
-### From source
-
-install `sass`,
-then just run `make && sudo make install` to build and install the theme.
+  $ git clone https://github.com/TheRealKizu/gtk3
+  $ npm install -g sass
+  $ make && sudo make install
+```
