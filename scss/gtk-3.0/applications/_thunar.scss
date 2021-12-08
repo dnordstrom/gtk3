@@ -1,57 +1,62 @@
 window.thunar {
-  background: none;
-
-  treeview {
     background: none;
-  }
 
-  grid {
-    *:selected,
-    *:active {
-      background: $background-3;
-      border-radius: 3px;
+    treeview {
+        background: none;
     }
-  }
 
-  .sidebar {
-    background-color: rgba(21, 26, 28, 0.2);
-    box-shadow: inset -20px 20px 15px -25px rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-  }
-
-  treeview {
-    padding: 3px;
-    &:selected {
-      background: $primary-accent;
+    grid {
+        *:selected,
+        *:active {
+            background: $background-3;
+            border-radius: 3px;
+        }
     }
-  }
 
-  .frame {
-    border: 0;
-  }
-
-  toolbar {
-    box {
-      padding: 5px;
+    .sidebar {
+        /* background-color: rgba(21, 26, 28, 0.2); */
+        background-color: #151a1c;
+        padding: 1rem;
     }
-  }
 
-  paned grid {
-    background: $background-1;
-  }
+    treeview {
+        padding: 3px;
+        &:selected {
+            background: $primary-accent;
+        }
+    }
 
-  toolbar {
-    background: $background-2;
-    padding: 5px 0;
-  }
-  toolbar * {
-    background: none;
-  }
+    .frame {
+        border: 0;
+    }
 
-  /* hide separator */
-  separator {
-    background-image: image(rgba(255, 255, 255, 0));
-    background-size: 1px 1px;
-    background-position: center center;
-  }
+    toolbar {
+        box {
+            padding: 5px;
+        }
+        entry {
+            background: $background-3;
+            border-radius: 4px;
+        }
+    }
+
+    paned grid {
+        background: $background-1;
+    }
+
+    toolbar {
+        background: $background-2;
+        padding: 5px 0;
+    }
+
+    toolbar * {
+        background: none;
+    }
+
+    /* hide separator */
+    separator {
+        background-image: image(rgba(255, 255, 255, 0));
+        background-size: 1px 1px;
+        background-position: center center;
+    }
 }

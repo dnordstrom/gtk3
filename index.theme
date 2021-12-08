@@ -5,8 +5,8 @@ Comment=Kizu's version of Elkowar's version of the phocus theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=kizus_gruvbox
-MetacityTheme=kizus_gruvbox
+GtkTheme=kizus_phocus
+MetacityTheme=kizus_phocus
 IconTheme=gnome
 CursorTheme=DMZ-Black
 ButtonLayout=menu:minimize,maximize,close
