@@ -4,7 +4,7 @@ INSTALL_DIR ?= $(DESTDIR)$(PREFIX)/share/themes/kizus_phocus
 
 all:
 	mkdir -p gtk-3.0
-	sass src/gtk-3.0/gtk.scss gtk-3.0/gtk.css
+	sass src/gtk-3.0/gtk.scss dist/gtk-3.0/gtk.css
 
 install:
 	@install -v -d "$(INSTALL_DIR)"
