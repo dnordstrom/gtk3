@@ -33,14 +33,14 @@ window.thunar {
     }
 
     toolbar {        
-        toolbutton {
-            opacity: 0;
-        }
+        // toolbutton {
+        //     opacity: 0;
+        // }
         entry {
             background: $background-3;
             border-radius: 10px;
 
-            margin: 2px 12em 2px -1.5em;
+            margin: 2px 2em 2px 1em;
             padding: 0px 1rem;
 
             image {
