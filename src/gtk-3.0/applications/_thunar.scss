@@ -14,15 +14,17 @@ window.thunar {
     }
 
     .sidebar {
-        /* background-color: rgba(21, 26, 28, 0.2); */
-        background-color: #151a1c;
+        background: #131718;
         padding: 1rem;
     }
 
     treeview {
         padding: 3px;
+        color: #6e7071;
         &:selected {
-            background: $primary-accent;
+            background: none;
+            color: $foreground-color;
+            font-weight: bold;
         }
     }
 
@@ -30,13 +32,20 @@ window.thunar {
         border: 0;
     }
 
-    toolbar {
-        box {
-            padding: 5px;
+    toolbar {        
+        toolbutton {
+            opacity: 0;
         }
         entry {
             background: $background-3;
-            border-radius: 4px;
+            border-radius: 10px;
+
+            margin: 2px 12em 2px -1.5em;
+            padding: 0px 1rem;
+
+            image {
+                background-image: image(rgba(255, 255, 255, 0));
+            }
         }
     }
 
@@ -55,7 +64,7 @@ window.thunar {
 
     /* hide separator */
     separator {
-        background-image: image(rgba(255, 255, 255, 0));
+        background-image: image(rgb(19, 23, 24));
         background-size: 1px 1px;
         background-position: center center;
     }

@@ -28,10 +28,10 @@ scale {
   }
 
   &.horizontal highlight {
-    background-image: linear-gradient(to right, $accent-5, $accent-4);
+    background-image: linear-gradient(to right, $accent-5, $accent-8);
   }
   &.vertical highlight {
-    background-image: linear-gradient(to bottom, $accent-5, $accent-4);
+    background-image: linear-gradient(to bottom, $accent-5, $accent-8);
   }
 
   &:disabled {
