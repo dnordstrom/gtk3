@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=kizus_phocus
-Comment=kizu's version of elkowar's version of the phocus theme
+Name=rxyhn_phocus
+Comment=rxyhn's version of elkowar's version of the phocus theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=kizus_phocus
-MetacityTheme=kizus_phocus
+GtkTheme=rxyhn_phocus
+MetacityTheme=rxyhn_phocus
 IconTheme=Adwaita
 CursorTheme=Adwaita
 ButtonLayout=menu:minimize,maximize,close

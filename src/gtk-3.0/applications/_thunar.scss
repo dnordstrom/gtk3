@@ -9,18 +9,17 @@ window.thunar {
         *:selected,
         *:active {
             background: $background-3;
-            border-radius: 3px;
         }
     }
 
     .sidebar {
-        background: #131718;
+        background: #111719;
         padding: 1rem;
     }
 
     treeview {
         padding: 3px;
-        color: #6e7071;
+        color: #89dceb;
         &:selected {
             background: none;
             color: $foreground-color;
@@ -33,9 +32,6 @@ window.thunar {
     }
 
     toolbar {        
-        // toolbutton {
-        //     opacity: 0;
-        // }
         entry {
             background: $background-3;
             border-radius: 10px;
@@ -54,7 +50,7 @@ window.thunar {
     }
 
     toolbar {
-        background: $background-2;
+        background: $background-1;
         padding: 5px 0;
     }
 

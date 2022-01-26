@@ -1,6 +1,6 @@
 PREFIX = /usr
 DESTDIR ?=
-INSTALL_DIR ?= $(DESTDIR)$(PREFIX)/share/themes/kizus_phocus
+INSTALL_DIR ?= $(DESTDIR)$(PREFIX)/share/themes/rxyhn_phocus
 
 all:
 	mkdir -p gtk-3.0
