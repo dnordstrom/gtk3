@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Rxyhn's Phocus-Phork</h1>
-  This GTK3 theme is a phork of <a href="https://github.com/janleigh/gtk3">kizu's phork</a> phocus theme, adjusted to match the Catppuccin-Darker colorscheme.
+  This GTK3 theme is a phork of <a href="https://github.com/janleigh/gtk3">kizu's phork</a> phocus theme, adjusted to match my colorscheme.
 </div>
 
 <h2 align="center"> ━━━━━━  ❖  ━━━━━━ </h2>
